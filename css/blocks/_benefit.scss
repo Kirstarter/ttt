@@ -1,0 +1,40 @@
+.benefit {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.benefit__image {
+    display: flex;
+    justify-content: center;
+}
+
+.benefit__image-wrapper {
+    display: flex;
+    width: 128px;
+    height: 128px;
+    background: #F2F5F4;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.benefit__icon {
+    width: 68px;
+    height: 68px;
+}
+
+.benefit__title {
+    font-size: 27px;
+    font-weight: 700;
+    color: $black;
+    margin-bottom: 20px;
+}
+
+.benefit__desc {
+    font-weight: 300;
+}

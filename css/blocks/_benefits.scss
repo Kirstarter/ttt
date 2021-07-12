@@ -1,0 +1,18 @@
+.benefits {
+    display: flex;
+    text-align: center;
+}
+
+.benefits__item {
+    &:first-child {
+        padding-left: 0px;
+    }
+
+    &:last-child {
+        padding-right: 0px;
+
+        &:before {
+            display: none;
+        }
+    }
+}
